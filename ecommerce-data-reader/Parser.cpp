@@ -146,7 +146,7 @@ void Parser::parseFile(const std::string& fileName) {
                 }
                 fieldIndex++;
             }
-
+             
             ECommerceEvent event;
 
             parseTimestamp(event.purchaseTime, fields[0]);
