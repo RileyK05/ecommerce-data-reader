@@ -24,7 +24,7 @@
     <ClCompile Include="Parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cleaner.cpp">
+    <ClCompile Include="Analyzer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,7 +38,7 @@
     <ClInclude Include="mio.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cleaner.h">
+    <ClInclude Include="Analyzer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

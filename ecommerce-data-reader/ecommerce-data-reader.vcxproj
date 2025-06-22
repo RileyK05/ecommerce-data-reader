@@ -129,13 +129,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Cleaner.cpp" />
+    <ClCompile Include="Analyzer.cpp" />
     <ClCompile Include="DataStructure.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parser.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cleaner.h" />
+    <ClInclude Include="Analyzer.h" />
     <ClInclude Include="DataStructure.h" />
     <ClInclude Include="mio.hpp" />
     <ClInclude Include="Parser.h" />

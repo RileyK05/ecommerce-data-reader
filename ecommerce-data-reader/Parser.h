@@ -1,18 +1,15 @@
 #pragma once
-#include <iostream>
+#include "DataStructure.h"
 #include <vector>
 #include <string>
-#include "DataStructure.h"
-
 
 class Parser {
-private:
-
-	std::vector<ECommerceEvent> eventVector;
 public:
-	Parser();
+    Parser();
+    void parseFile(const std::string& fileName);
+    void runUnitTests();
+    const std::vector<ECommerceEvent>& getEventVector() const;
 
-	void parseFile(const std::string& file);
-
+private:
+    std::vector<ECommerceEvent> eventVector;
 };
-
